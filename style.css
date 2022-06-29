@@ -1,0 +1,53 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: hsl(218, 23%, 16%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 1.2rem;
+}
+
+.container {
+  width: 550px;
+  height: 300px;
+  background-color: hsl(217, 19%, 24%);
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.advice-number {
+  color: hsl(150, 100%, 66%);
+  margin-top: 3rem;
+  text-transform: uppercase;
+}
+
+.dice {
+  width: 50px;
+  height: 50px;
+  background-color: hsl(150, 100%, 66%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  position: absolute;
+  top: 275px;
+  left: 250px;
+  cursor: pointer;
+}
+
+.dice:hover {
+  box-shadow: 0 0 25px 3px hsl(150, 100%, 66%);
+}
+.advice {
+  padding: 2rem;
+}
+.divider {
+  position: absolute;
+  top: 230px;
+  left: 53px;
+}
